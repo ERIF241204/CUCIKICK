@@ -1,0 +1,71 @@
+.pricing {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.pricing-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #444;
+}
+
+.card{
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  color: #28a745;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.pricing-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/img/close-up-small-dark-blue-shoes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+  
